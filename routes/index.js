@@ -14,8 +14,8 @@ router.get('/concerts', function(req, res, next) {
     res.render('concerts', { title: 'Express' });
 });
 
-router.get('/discography', function(req, res, next) {
-    res.render('discography', { title: 'Express' });
+router.get('/media', function(req, res, next) {
+    res.render('media', { title: 'Express' });
 });
 
 router.get('/contact', function(req, res, next) {
