@@ -1,1 +1,35 @@
-extends layout
+include layout
+
+section#banner
+    .inner
+        h2 Værbitt
+        p A new metal band from Norway
+    // Two
+
+section#two.wrapper.style2
+    header.major
+        h2 Værbitt is releasing a new album
+        p It's called "Frost". Or "Vann". Or "Mørke".
+    .container
+        .row
+            .6u
+                section.special
+                    a.image.fit(href='#')
+                        img(src='images/pic01.jpg', alt='')
+                    h3 Værbitt likes nature
+                    p This is a picture of Stein, one of the members of the band, walking on some wood
+                    ul.actions
+                        li
+                            a.button.alt(href='/stein') Read more about Stein and his hikes
+            .6u
+                section.special
+                    a.image.fit(href='#')
+                        img(src='images/pic02.jpg', alt='')
+                    h3 Eirik from behind
+                    p Eirik likes to wear hoodies.
+                    ul.actions
+                        li
+                            a.button.alt(href='/eirik') Read more about Eirik
+
+
+include footer
