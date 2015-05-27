@@ -42,4 +42,8 @@ router.get('/tobias', function(req, res, next) {
     res.render('tobias', { title: 'Express' });
 });
 
+router.get('/news1', function(req, res, next) {
+    res.render('news1', { title: 'Express' });
+});
+
 module.exports = router;

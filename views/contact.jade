@@ -2,8 +2,21 @@ include layout
 section#two.wrapper.style2
     header.major
         h2 Contact
-        p We would love to hear from you.
+        p We would love to hear from you. Either if you want to book Værbitt, or just want to leave us a message, use the form below.
     .container
         section.special
-            p Contact information coming soon.
+            form
+                div.uniform.row(class='50%')
+                    div.12u
+                        input#name(type='text', placeholder='Name', value='', name='name')
+                        input#name(type='text', placeholder='E-mail', value='', name='name')
+                    div.12u
+                        textarea#message(rows='6', placeholder='Enter your message', name='message')
+                    div.1u
+                        input.special(type='submit', value='Send Message')
+
+
+
+
+
 include footer
