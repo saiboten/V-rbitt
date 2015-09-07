@@ -1,7 +1,7 @@
 var Banner = React.createClass({
 
     getInitialState: function() {
-        return { header: "Værbitt", content: "A metal band from Norway", time: 0};
+        return { header: "Værbitt", content: "Atmospheric, heavy and cold extreme metal from Bergen, Norway"};
     },
 
     updateTime: function() {
@@ -9,14 +9,10 @@ var Banner = React.createClass({
         this.setState({time: this.state.time});
     },
 
-    componentDidMount: function() {
-        setInterval( this.updateTime,  1000);
-    },
-
     render: function() {
         return (
             <div class="inner">
-                <h2>{this.state.header} - {this.state.time}</h2>
+                <h2>{this.state.header}</h2>
                 <p>{this.state.content}</p>
             </div>
             );

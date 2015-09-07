@@ -46,4 +46,8 @@ router.get('/news1', function(req, res, next) {
     res.render('news1', { title: 'Express' });
 });
 
+router.get('/discography', function(req, res, next) {
+    res.render('discography', { title: 'Express' });
+});
+
 module.exports = router;
