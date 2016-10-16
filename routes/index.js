@@ -22,26 +22,6 @@ router.get('/contact', function(req, res, next) {
     res.render('contact', { title: 'Express' });
 });
 
-router.get('/stein', function(req, res, next) {
-    res.render('stein', { title: 'Express' });
-});
-
-router.get('/eirik', function(req, res, next) {
-    res.render('eirik', { title: 'Express' });
-});
-
-router.get('/matt', function(req, res, next) {
-    res.render('matt', { title: 'Express' });
-});
-
-router.get('/tomas', function(req, res, next) {
-    res.render('tomas', { title: 'Express' });
-});
-
-router.get('/tobias', function(req, res, next) {
-    res.render('tobias', { title: 'Express' });
-});
-
 router.get('/news1', function(req, res, next) {
     res.render('news1', { title: 'Express' });
 });
